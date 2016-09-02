@@ -42,10 +42,4 @@ int main()
     isSquare(p1, p2, p3, p4)? cout << "Square": cout << "Not Square";
     return 0;
 }
-int main()
-{
-    Point p1 = {20, 10}, p2 = {10, 20},
-          p3 = {20, 20}, p4 = {10, 10};
-    isSquare(p1, p2, p3, p4)? cout << "Yes": cout << "No";
-    return 0;
-}
+
